@@ -1,0 +1,25 @@
+
+// outDir 속성 적용
+// outDir 를 설정하면 컴파일된 파일들이 저장되는 경로를 지정 할 수 있다.
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "outDir": "./dist"
+    }
+  }
+
+
+/*
+// 초기 생성파일
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true
+    }
+}
+*/
